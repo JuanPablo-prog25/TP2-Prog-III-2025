@@ -1,0 +1,11 @@
+/* Mensajes de error en rojo */
+.error {
+    color: red;
+    font-weight: bold;
+}
+
+/* Mensajes de exito en verde */
+.exito {
+    color: green;
+    font-weight: bold;
+}
