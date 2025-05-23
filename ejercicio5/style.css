@@ -1,0 +1,27 @@
+/* aplicar al fondo */
+body 
+{
+    background: linear-gradient( #007bff, #4a90e2);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+/* estilo para el boton */
+button 
+{
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+/* cambia el estilo del boton cuando pasa el cursor */
+button:hover 
+{
+    background-color: #0056b3;
+}
