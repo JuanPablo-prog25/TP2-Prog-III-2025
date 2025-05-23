@@ -1,0 +1,25 @@
+
+/* aplicar al fondo */
+body {
+    background: linear-gradient(135deg, #f4f4f4, #007bff);
+    color: white;
+    text-align: center;
+}
+/* aplica en el titulo */
+h1 {
+    color: #08aec4;
+    text-align: center;
+}
+
+/* aplicar en los campos de entrada */
+input {
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    transition: 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #007bff;
+    outline: none;
+}
